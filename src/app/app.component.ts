@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
     this.taskBoardService.gettaskLists().subscribe(taskLists => {
       this.taskLists = taskLists;
     }, error => {
-     /** @todo => Error handling */
+      this.taskLists = [];
     });
   }
 }

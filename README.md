@@ -27,10 +27,30 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-## Deployed 
-npm install g surge
-npm run build
-cd dist/folder
-npm surge
+## Demo project for Task Management
+- Angular 9 project
+- SCSS
+- Added shared module.
+- Added task-board custom component in shared module.
+- Added task list model interface in shared directory.
+- Added task board service in shared module to fetch API data for task list.
+- Added sample data json in assets.
+- Rendered Dynamic Task lists and tasks in those lists.
+- Added functionality to dynamically add new task lists and tasks in different lists.
+- Added drag and drop functionality using html5 controls and events without using any external library.
+- Error handling
+- Displayed 'No Task List Found!' message if there is no task list.
+- Added method comment and line comments to enhance code readability.
+- Used index.ts files to reduce code repeatition.
+- Written simple Unit test for service.
+- Added code to Github repository.
+- Added script in Package.json to automate deployment process.
+- Deployment on Surve hosting.
 
-Deployed on surge: https://demo-kanban.surge.sh/
+## Deployement
+- npm install g surge
+- npm run build
+- cd dist/folder
+- npm surge
+
+- Live Application URl: https://demo-kanban.surge.sh/

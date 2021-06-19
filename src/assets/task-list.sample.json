@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Todo",
+        "tasks": [
+            {
+                "name": "todo-task1"
+            },
+            {
+                "name": "todo-task2"
+            },
+            {
+                "name": "todo-task3"
+            }
+        ]
+    },
+    {
+        "name": "Inprogress",
+        "tasks": [
+            {
+                "name": "Inprogress-task1"
+            },
+            {
+                "name": "Inprogress-task2"
+            },
+            {
+                "name": "Inprogress-task3"
+            }
+        ]
+    },
+    {
+        "name": "Done",
+        "tasks": [
+            {
+                "name": "completed task1 detail"
+            },
+            {
+                "name": "completed task2 detail"
+            },
+            {
+                "name": "completed task3 detail"
+            }
+        ]
+    }
+]

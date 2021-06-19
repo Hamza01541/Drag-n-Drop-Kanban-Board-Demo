@@ -1,0 +1,21 @@
+.list-card {
+  width: 170px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #666;
+  background-color: #ddd;
+  border-radius: 0.5em;
+  padding: 10px;
+  cursor: move;
+
+  .task-card {
+    margin: 0 1em 1em 0;
+    padding: 1em;
+    border: 3px solid rgb(168, 27, 27);
+    background-color: #ddd;
+    border-radius: 0.5em;
+    padding: 10px;
+    cursor: move;
+  }
+}

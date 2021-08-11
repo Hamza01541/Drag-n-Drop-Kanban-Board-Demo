@@ -51,6 +51,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - npm install g surge
 - npm run build
 - cd dist/folder
-- npm surge
+- surge
 
 - Live Application URl: https://demo-kanban.surge.sh/
